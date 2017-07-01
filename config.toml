@@ -6,3 +6,13 @@ pygmentscodefences = "true"
 pygmentscodefencesguesssyntax = false
 pygmentsstyle = "trac"
 pygmentsuseclasses = false
+
+[taxonomies]
+tag = "tags"
+
+[Languages]
+[Languages.en]
+lang = "en"
+# Uncomment the following two lines for error
+#[Languages.fr]
+#lang = "fr"
