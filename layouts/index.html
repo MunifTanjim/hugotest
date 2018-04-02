@@ -1,9 +1,16 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-<div class="list-group">
-{{ range (.Paginate (where .Site.RegularPages "Section" "in" ( .Site.Params.mainSections ))).Pages }}
-<a href="{{ .RelPermalink }}" class="list-group-item">{{ .Title }}</a>
-{{ end }}
-</div>
-{{ .Content }}
-{{ end }}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Hugo Test</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css" />
+  <script src="bootstrap.min.js"></script>
+</head>
+<body>
+
+{{.Content}}
+
+</body>
+</html>
