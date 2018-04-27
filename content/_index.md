@@ -1,6 +1,4 @@
 ---
-title: Hugo Test
+title: Stapsher Testing
 ---
-Hugo Testing Site
-
-for extraStatic App
+Hugo Testing Site for Stapsher

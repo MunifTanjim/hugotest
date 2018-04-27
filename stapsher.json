@@ -1,0 +1,8 @@
+{
+  "comments": {
+    "commitMessage": "add [like]: <Stapsher>",
+    "filename": "like",
+    "format": "json",
+    "path": "data/likes"
+  }
+}
