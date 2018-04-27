@@ -1,8 +1,30 @@
 {
   "comments": {
-    "commitMessage": "add [like]: <Stapsher>",
-    "filename": "like",
-    "format": "json",
-    "path": "data/likes"
+    "allowedFields": [
+      "author",
+      "content",
+      "email",
+      "parent_id",
+      "permalink",
+      "site"
+    ],
+    "branch": "stapsher",
+    "commitMessage":
+      "add [comment]: by {fields.author} <Stapsher>\n\n{fields.permalink}#comment-{_id}",
+    "filename": "{_id}",
+    "format": "yaml",
+    "generatedFields": {
+      "date": {
+        "type": "date",
+        "options": {
+          "format": "unix"
+        }
+      }
+    },
+    "path": "data/comments/{options.postId}",
+    "requiredFields": ["author", "content", "email", "permalink"],
+    "transforms": {
+      "email": "hash~md5"
+    }
   }
 }
