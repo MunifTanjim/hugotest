@@ -13,7 +13,7 @@
       </a>
     </small>
   </h4>
-  <form action='{{ $api }}/comments' method='post' id='comment-form' class='comment-form'>
+  <form action='{{ $api }}/new/comments' method='post' id='comment-form' class='comment-form'>
     <input type='hidden' name='options[postId]' value='{{ .UniqueID }}'>
     <input type='hidden' name='options[redirect][success]' value='{{ .Permalink }}#submission-success'>
     <!--input type='hidden' name='options[redirect][failure]' value='{{ .Permalink }}#submission-failure'-->

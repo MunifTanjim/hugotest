@@ -1,5 +1,11 @@
 {
   "comments": {
+    "akismet": {
+      "enabled": true,
+      "siteURL": "https://muniftanjim.com",
+      "apiKey":
+        "RoYkMclNQOtyqVt/SNOs1x0C1zWxqQL7BqxToiTmZtqeMjKldWX9pII++xeOXvd9yAOS+vqbfpAOTU6/0WtQarBvjWNb3S0KWXl7X5eWr8anMPfVUsWd0U+xjZuO4aqwi17TPGb3d+pmlpjXgf4qw93fJIhCa+PN2vpZ6pVbVnsWcp2mjMau11f/yj4hhXWq/mWwapMh4MOsyUz3hIGsPAhbSVIRCnCOn4wjYINSIz3TYfXlgoqmKipouQru6C7Q1vcd//im1FXonJ4Xzz9AETs2V+nVwm8m/jdi76oaJoS+R3Dg1M58j3bcCpYDT18EjeIk9IodpnG1NTS99krw1A=="
+    },
     "allowedFields": [
       "author",
       "content",
@@ -12,7 +18,7 @@
     "commitMessage":
       "add [comment]: by {fields.author} <Stapsher>\n\n{fields.permalink}#comment-{_id}",
     "filename": "{_id}",
-    "format": "yaml",
+    "format": "json",
     "generatedFields": {
       "date": {
         "type": "date",

@@ -85,7 +85,7 @@ enable = false
 
 [params.comments.staticman]
 enable = true
-apiEndpoint = "https://stapsher.extrastatic.xyz/github.com/new"
+apiEndpoint = "https://stapsher.localtunnel.me/github.com"
 maxDepth = 2
 
 [params.comments.staticman.github]
